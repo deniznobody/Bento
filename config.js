@@ -11,32 +11,22 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'deniz',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: "good morning! it's gonna be a good day",
+	greetingAfternoon: 'hey!',
+	greetingEvening: 'hey! i love you',
+	greetingNight: "this is harmful for you",
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
-
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
-
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -65,9 +55,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Soundcloud',
+			icon: 'headphones',
+			link: 'https://soundcloud.com',
 		},
 		{
 			id: '4',
@@ -80,6 +70,12 @@ const CONFIG = {
 			name: 'ChatGPT',
 			icon: 'glasses',
 			link: 'https://chat.com/',
+		},
+		{
+			id: '6',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://instagram.com/',
 		},
 	],
 
@@ -125,55 +121,6 @@ const CONFIG = {
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
-
-	// First Links Container
-	firstlistsContainer: [
-		{
-			icon: 'music',
-			id: '1',
-			links: [
-				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
-		},
-	],
-
 	// Second Links Container
 	secondListsContainer: [
 		{
