@@ -227,7 +227,7 @@ body {
 .linksBlockRight {
   grid-column: 3 / span 2;
   margin-left: 300px;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .buttonsContainer {
