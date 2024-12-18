@@ -49,9 +49,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://gmail.com',
+			name: 'Your Site',
+			icon: 'globe',
+			link: 'https://deniz2m.dev',
 		},
 		{
 			id: '3',
